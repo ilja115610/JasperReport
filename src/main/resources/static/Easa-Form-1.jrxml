@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.18.1.final using JasperReports Library version 6.18.1-9d75d1969e774d4f179fb3be8401e98a0e6d1611  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Easa-Form-1" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="284c3f4b-0e03-4207-8345-84569653d9b7">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="authority" class="java.lang.String"/>
+	<field name="trackingNumber" class="java.lang.String"/>
+	<field name="orgNameAndAddress" class="java.lang.String"/>
+	<field name="workOrder" class="java.lang.String"/>
+	<field name="item" class="java.lang.String"/>
+	<field name="description" class="java.lang.String"/>
+	<field name="partNo" class="java.lang.String"/>
+	<field name="qty" class="java.lang.String"/>
+	<field name="serialNo" class="java.lang.String"/>
+	<field name="status" class="java.lang.String"/>
+	<field name="remarks" class="java.lang.String"/>
+	<field name="signature" class="java.lang.String"/>
+	<field name="approvalRef" class="java.lang.String"/>
+	<field name="name" class="java.lang.String"/>
+	<field name="date" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="550" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<rectangle>
+				<reportElement x="-1" y="0" width="801" height="547" uuid="2baa61e6-5aab-4db5-9dff-4d4851d95e6a"/>
+				<graphicElement>
+					<pen lineWidth="2.0"/>
+				</graphicElement>
+			</rectangle>
+			<line>
+				<reportElement x="0" y="75" width="801" height="1" uuid="73142399-04e3-41cc-b35d-429902d2865c">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="0" y="150" width="801" height="1" uuid="e274c3a3-9eae-4e64-9841-0156ac8c2b57"/>
+			</line>
+			<line>
+				<reportElement x="0" y="175" width="801" height="1" uuid="e96671e7-96f4-4039-8e13-9f633410e3ea">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="630" y="0" width="1" height="236" uuid="dda5b82e-706c-4651-a4a6-7dd753b4f966"/>
+			</line>
+			<line>
+				<reportElement x="500" y="150" width="1" height="84" uuid="aa7cce3e-6c97-4450-983b-15a94ebbf7f3">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="0" y="235" width="800" height="1" uuid="dc56f47c-4fb1-4644-9745-1cddca61288e">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="400" y="150" width="1" height="85" uuid="892f37ea-426b-4861-a841-2d4e56ad3e11">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="280" y="150" width="1" height="85" uuid="7e4e4cce-f0ab-4bae-ad28-ce303c59f56b">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="120" y="150" width="1" height="85" uuid="7f202915-e276-41cf-a028-f8375ccc9d0a">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="200" y="0" width="1" height="75" uuid="0114a43a-f41c-4711-bf23-43317c22f554"/>
+			</line>
+			<line>
+				<reportElement x="0" y="350" width="797" height="1" uuid="b4948d17-c84b-47d9-a0f7-6d50034eff57">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="-1" y="410" width="800" height="1" uuid="614b2434-4137-4f6c-a174-e792584f9503">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="0" y="450" width="798" height="1" uuid="792e9273-7729-4acf-b1bd-f706006236c9">
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="0" y="490" width="801" height="1" uuid="e1daccd5-edca-41e1-a3a0-867be4cc3b8b"/>
+			</line>
+			<line>
+				<reportElement x="400" y="351" width="1" height="139" uuid="0accb08e-c790-4c5e-8eee-6516833dea37">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="640" y="410" width="1" height="81" uuid="7011c38f-d22c-4a78-a4b1-f5c4f9c66eb8"/>
+			</line>
+			<staticText>
+				<reportElement x="280" y="20" width="260" height="41" uuid="9d376d85-970e-4370-a0ed-a4863d0a3a10"/>
+				<textElement textAlignment="Center">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[2. AUTHORISED RELEASE CERTIFICATE EASA FORM 1 ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="640" y="10" width="151" height="20" uuid="29735f5f-b24a-4d2e-9627-7e39c5a642f6"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[3. Form Tracking Number]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="10" width="170" height="30" uuid="ce2d5f97-78cf-4acd-bd20-27246a9b2c3d"/>
+				<text><![CDATA[1.Approving Component Authority
+/Country]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="80" width="181" height="21" uuid="318446d8-0904-4b78-b969-8b8c7f2d430a"/>
+				<text><![CDATA[4. Organisation Name and Address ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="640" y="80" width="140" height="21" uuid="e8bc7aa8-bba6-46e0-871f-e06e460eb2aa"/>
+				<text><![CDATA[5. Work Order/Contract/Invoice]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="151" width="101" height="20" uuid="68150d8d-d15e-4c32-9e5e-24644be12d7c"/>
+				<textElement verticalAlignment="Bottom"/>
+				<text><![CDATA[6. Item]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="130" y="150" width="101" height="20" uuid="14f04ee5-3e9c-4f7a-bf64-fd59d1ed18ef"/>
+				<textElement verticalAlignment="Bottom"/>
+				<text><![CDATA[7. Description]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="290" y="151" width="90" height="20" uuid="209a8fd1-79c0-4770-a9c1-58f6d37e56f2"/>
+				<textElement verticalAlignment="Bottom"/>
+				<text><![CDATA[8. Part No]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="410" y="150" width="70" height="20" uuid="9374cf4d-7a86-478e-851f-0ebc74d64ce4"/>
+				<textElement verticalAlignment="Bottom"/>
+				<text><![CDATA[9. Qty]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="510" y="150" width="100" height="20" uuid="f74d0eae-9155-4fd1-85ac-9c361f5904ee"/>
+				<textElement verticalAlignment="Bottom"/>
+				<text><![CDATA[10. Serial No]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="640" y="150" width="130" height="20" uuid="6ae899e2-7903-4c04-b496-56952aa53285"/>
+				<textElement verticalAlignment="Bottom"/>
+				<text><![CDATA[11.Status/Work]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="240" width="110" height="20" uuid="f56fa8a5-9c6a-4747-ad0d-04556fd2676c"/>
+				<text><![CDATA[12. Remarks]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="300" width="750" height="40" uuid="7a49dbde-77c2-4458-98fe-aa37848151c6"/>
+				<text><![CDATA[Certifies that, unless otherwise specified in this block, the work identified in block 11 and described in this block was accomplished in accordance with the
+requirements of Section A, Subpart F of Annex I (Part-M) or Annex Vd (Part-CAO) to Regulation (EU) No 1321/2014 and in respect to that work the item is considered
+ready for release to service.
+THIS IS NOT A RELEASE UNDER ANNEX II (Part-145) TO REGULATION (EU) No 1321/2014.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="410" y="350" width="360" height="60" uuid="723f06f6-a914-4906-b306-3035fc9ee35f"/>
+				<text><![CDATA[14.a
+    Part-145.A.50 Release to Service
+    Other regulation specified in block 12
+Certifies that unless otherwise specified in block 12, the work identified in block 11 and described in block 12, was
+accomplished in accordance with Part-145 and in respect to that work the items are considered ready for release to
+service.]]></text>
+			</staticText>
+			<frame>
+				<reportElement mode="Opaque" x="0" y="351" width="400" height="138" backcolor="#D1D1D1" uuid="0970bcd5-a425-4c46-ab83-d8b4b87d9988"/>
+				<staticText>
+					<reportElement x="9" y="5" width="370" height="20" uuid="66a86da7-cba3-474f-9530-c5c180fa10f9"/>
+					<text><![CDATA[13.a Certifies that the items identified above were manufactured in conformity to:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="8" y="65" width="150" height="20" uuid="7edb0d23-5d40-410f-a3c2-a45ec173d15c"/>
+					<text><![CDATA[13.b. Authorised Signature]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="236" y="65" width="161" height="30" uuid="e8f5c7e3-5448-4c37-9eac-aa21aef25906">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+					<text><![CDATA[13.c. Approval/AuthorisationNumber]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="9" y="106" width="110" height="20" uuid="39c982c8-5f7f-42bf-a8fe-55fd9f23640e"/>
+					<text><![CDATA[13.d. Name]]></text>
+				</staticText>
+				<staticText>
+					<reportElement x="235" y="105" width="120" height="20" uuid="d93f0472-6ac6-4d20-9bad-dfc239a27c2d"/>
+					<text><![CDATA[13.e. Date (dd mmm yyyy)]]></text>
+				</staticText>
+				<line>
+					<reportElement x="231" y="60" width="1" height="79" uuid="cad0f2e6-8d40-4054-9905-7a7044da74da">
+						<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					</reportElement>
+				</line>
+				<line>
+					<reportElement x="0" y="59" width="400" height="1" uuid="a16fd786-7e4e-4b4a-b1c5-08b9d8124574"/>
+				</line>
+				<line>
+					<reportElement x="0" y="99" width="400" height="1" uuid="3f6d95c4-64e2-45d3-b320-0451e3e1360a"/>
+				</line>
+				<line>
+					<reportElement x="6" y="-1" width="388" height="140" uuid="82634bf3-a789-479c-8269-a1668acb7ac7"/>
+				</line>
+			</frame>
+			<staticText>
+				<reportElement x="410" y="410" width="150" height="20" uuid="b61d9845-5524-4085-a13b-6979e0ff5018"/>
+				<text><![CDATA[14.b. Authorised Signature]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="645" y="410" width="153" height="20" uuid="8d4695d2-ac92-478a-9590-e7b15af73319"/>
+				<text><![CDATA[14.c. Certificate/Approval Ref.No]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="410" y="450" width="150" height="20" uuid="74fb251f-7247-43cc-a9df-19bb9bed6b48"/>
+				<text><![CDATA[14.d. Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="645" y="451" width="130" height="20" uuid="b6cafdc5-7f5e-4d48-85e2-5cb3775c3821"/>
+				<text><![CDATA[14.e. Date (dd mmm yyyy)]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="9" y="40" width="170" height="30" uuid="78af8b76-14fe-45cb-af4a-9fdda522be92"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{authority}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="640" y="31" width="150" height="38" uuid="3952053f-28c4-42f2-b98f-550880c17c31"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{trackingNumber}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="10" y="101" width="590" height="38" uuid="fe198d60-e5e4-4336-8588-931427530742"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{orgNameAndAddress}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="410" y="366" width="8" height="8" uuid="52e59f0b-d5bb-4001-a3c1-9144eada4d42">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="410" y="378" width="8" height="8" uuid="f531b89b-a5b6-4a91-bdbd-7dc2f6937669">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+			</rectangle>
+			<textField>
+				<reportElement x="641" y="110" width="138" height="30" uuid="6ed956e8-b6c0-481d-981f-1f652ae25359"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{workOrder}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="8" y="200" width="100" height="30" uuid="534520a1-707f-458b-81f3-b9304681996d"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{item}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="130" y="200" width="140" height="30" uuid="09dd81ab-b5c3-40ec-8628-031bea613079"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{description}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="285" y="200" width="108" height="30" uuid="c0648e15-3196-457c-afb5-e218509a00ba"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{partNo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="410" y="200" width="80" height="30" uuid="7c4379b6-994b-4c21-8301-65ffe3abab7e"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{qty}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="510" y="200" width="100" height="30" uuid="2a83efcf-b6fa-4420-addf-d380eaba7811"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{serialNo}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="641" y="200" width="134" height="30" uuid="3978ca4d-e3ed-4379-bc23-2ae8a2fae3e4"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{status}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="140" y="250" width="570" height="40" uuid="a468b951-58d5-49b5-8671-82a4151838c6"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{remarks}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="460" y="426" width="140" height="20" uuid="c0326cf7-8461-4c4b-b3bc-889fa5a15197"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{signature}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="660" y="428" width="114" height="16" uuid="dbe10eb0-cecc-4789-8feb-4d0b5dee2beb"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{approvalRef}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="440" y="470" width="170" height="16" uuid="10c2427d-24b5-4fd3-a42b-ca334a6a4026"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="660" y="470" width="110" height="16" uuid="40c11fc2-2a0b-4804-9657-893aa14cecfa"/>
+				<textElement textAlignment="Center" verticalAlignment="Bottom"/>
+				<textFieldExpression><![CDATA[$F{date}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

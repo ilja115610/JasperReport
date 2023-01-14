@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Login</title>
+    <script th:include="fragments/header :: headerScripts" th:remove="tag"></script>
+</head>
+<body>
+<div class="container">
+    <br>
+<div class="row mt-5" style="height: 250px">
+        <div class=" col-12 text-center" >
+            <img th:src="@{img/logo.jpg}" alt="Image" src="../static/img/logo.jpg">
+            </div>
+</div>
+</div>
+<br>
+<div class="container">
+    <div class="row d-flex justify-content-center">
+        <div class="col-10">
+<div class="card border border-info " >
+    <h2 class="card-header">
+        Please login below:
+    </h2>
+    <div class="card-body">
+        <form action="" method="post" th:object="${user}" >
+            <div class="row d-flex justify-content-center">
+                <div class="col-8">
+            <fieldset>
+                <!-- use param.error assuming FormLoginConfigurer#failureUrl contains the query parameter error -->
+                <div th:if="${param.error != null}" style="color: red;">
+                    <div>
+                        Failed to login.
+                        <div th:if="${session['SPRING_SECURITY_LAST_EXCEPTION'] != null}">
+                            Reason: <span
+                                th:text="${session['SPRING_SECURITY_LAST_EXCEPTION'].message}"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div th:if="${param.logout != null}">You have been logged out.</div>
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input class="form-control form-control-lg" type="text" id="username" th:field="${user.username}" />
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control form-control-lg" id="password" th:field="${user.password}" />
+                </div>
+                <div class="d-flex justify-content-center m-3 ">
+                    <div class="d-grid gap-2 col-4 mx-auto">
+                    <button type="submit" class="btn btn-outline-primary">Login</button>
+                    </div>
+                </div>
+            </fieldset>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+    </div>
+    <br>
+    <div class="container">
+       <div class="text-center">
+           V 1.0
+       </div>
+        <br>
+        <div class="row" >
+
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
